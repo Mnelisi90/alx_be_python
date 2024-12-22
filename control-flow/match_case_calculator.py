@@ -19,6 +19,6 @@ match operation:
   case "/":
         if num2 != 0:  # Handle division by zero
             result = num1 / num2
-            print("The result of", num1, "/", num2, "is", result)
+            print("The result is", num1, "/", num2, "is", result)
         else:
             print("Error: Division by zero is not allowed.")
