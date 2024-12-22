@@ -1,7 +1,8 @@
 #define variable and prompt user to input task
 task = input("Enter task description:")
-priority = input("high,medium,low")
 time_bound = (input("Is the task time bound (yes or no)"))
+priority = input("high,medium,low")
+
 
 #match case stetament with priority
 match priority:
