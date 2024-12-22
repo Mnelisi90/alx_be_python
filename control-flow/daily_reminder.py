@@ -1,7 +1,7 @@
 #define variable and prompt user to input task
 task = input("Enter task description:")
-time_bound = (input("Is the task time bound (yes or no)"))
-priority = input("high,medium,low")
+time_bound = input("Is it time-bound? (yes/no):")
+priority = input("priority (high,medium,low:)")
 
 
 #match case stetament with priority
@@ -25,6 +25,8 @@ match priority:
          print("but it is time-sensitive, so try to complete it soon!")
         else:
          print(" and can be completed whenever you have free time.")
+    case _:
+        print("Invalid priority level! Please choose from high, medium, or low.")
 
 
      
