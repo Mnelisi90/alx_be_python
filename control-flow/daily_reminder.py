@@ -1,7 +1,7 @@
 #define variable and prompt user to input task
-Task = input("Enter your Task:")
-Time_Bound = input("Is it Time-Bound? (yes/no):")
-Priority = input("Priority (high,medium,low):")
+Task = input("Enter your Task:" )
+Time_Bound = input("Is it Time-Bound? (yes/no):" )
+Priority = input("Priority (high,medium,low):" )
 
 
 #match case stetament with priority
