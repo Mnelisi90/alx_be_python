@@ -1,5 +1,5 @@
 #define variable and prompt user to input task
-Task = input("Enter task description:")
+Task = input("Enter your task description:")
 Time_Bound = input("Is it time-bound? (yes/no):")
 Priority = input("priority (high,medium,low:)")
 
