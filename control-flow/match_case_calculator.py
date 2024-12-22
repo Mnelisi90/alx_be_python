@@ -3,7 +3,7 @@ num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
 # Ask for operations
-operation = input("Choose operation (+,-,*,/):")
+operation = input("Choose the operation (+,-,*,/):")
 
 # Match operation with numbers
 match operation:
