@@ -1,5 +1,5 @@
 #define function 
-def perform_operation (num1, num2, operation):
+def perform_operation(num1, num2, operation):
   """
     Perform basic arithmetic operations.
 
@@ -28,8 +28,6 @@ def perform_operation (num1, num2, operation):
     return "Error: invalid operation"
   
 # main.py  
-from arithmetic_operations import perform_operation
-
 from arithmetic_operations import perform_operation
 
 def main():
