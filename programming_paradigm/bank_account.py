@@ -13,7 +13,6 @@ class BankAccount:
     def withdraw(self, amount):
         """Withdraw the specified amount if funds are sufficient."""
         if amount > self.__account_balance:
-            print("Insufficient funds.")
             return False
         elif amount > 0:
             self.__account_balance -= amount
