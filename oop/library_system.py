@@ -9,7 +9,7 @@ class Book:
 # Derived class for EBooks
 class EBook(Book):
     def _init_(self, title, author, file_size)
-        super(). _init_(title, author)
+        super()._init_(title, author)
         self.file_size = file_size
 
     def __str__(self):
