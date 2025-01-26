@@ -7,7 +7,7 @@ class Book:
         return f"{self.title} by {self.author}"
     
 # Derived class for EBooks
-class EBook:
+class EBook(Book):
     def _init_(self, title, author, file_size)
         super(). _init_(title, author)
         self.file_size = file_size
@@ -16,7 +16,7 @@ class EBook:
         return f" {self.title} by {self.author},(File size: {self.file_size} MB)"
 
 # Derived class for PrintBooks 
-class PrintBook (Book):
+class PrintBook(Book):
     def _init_(self, title, author, page_count): 
          super()._init_(title, author)
          self.page_count = page_count
