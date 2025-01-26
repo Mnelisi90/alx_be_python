@@ -8,7 +8,7 @@ class Book:
     
 # Derived class for EBooks
 class EBook(Book):
-    def _init_(self, title, author, file_size):
+    def __init__(self, title, author, file_size):
         super().__init__(title, author)  # Properly call the base class constructor
         self.file_size = file_size
 
@@ -17,7 +17,7 @@ class EBook(Book):
 
 # Derived class for PrintBooks 
 class PrintBook(Book):
-    def _init_(self, title, author, page_count): 
+    def __init__(self, title, author, page_count): 
          super().__init__(title, author)
          self.page_count = page_count
     
