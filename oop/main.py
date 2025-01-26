@@ -1,20 +1,3 @@
-class Library:
-    def __init__(self):  # Corrected the constructor name to __init__
-        self.books = []
-
-    def add_book(self, book):    
-        if isinstance(book, Book):
-            self.books.append(book)
-        else:
-            raise TypeError("Only instances of Book, EBook, or PrintBook can be added.")
-
-    def list_books(self):
-        if not self.books:
-            print("The library is empty.")
-        else:
-            for book in self.books:
-                print(book)
-
 from library_system import Book, EBook, PrintBook, Library
 
 def main():
