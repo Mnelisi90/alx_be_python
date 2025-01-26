@@ -7,7 +7,7 @@ class Book:
 
     def __del__(self):
         """Destructor to indicate when a Book instance is being deleted."""
-        print(f"Deleting '{self.title}'")
+        print(f"Deleting {self.title}")
 
     def __str__(self):
         """String representation for end-user readability."""
@@ -21,20 +21,10 @@ class Book:
 from book_class import Book
 
 def main():
-    # Create a Book instance
-    my_book = Book("1984", "George Orwell", 1949. )
-
-    # Display string representation (__str__)
-    print("String Representation:")
-    print(my_book)
-
-    # Display official representation (__repr__)
-    print("\nOfficial Representation:")
-    print(repr(my_book))
-
-    # Delete the book instance
-    print("\nDeleting the Book instance:")
-    del my_book
+    my_book = Book("1984", "George Orwell", 1949)
+    print(my_book)  # Uses __str__
+    print(repr(my_book))  # Uses __repr__
+    del my_book  # Uses __del__
 
 if __name__ == "__main__":
     main()        
