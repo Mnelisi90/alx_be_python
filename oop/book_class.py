@@ -22,7 +22,7 @@ from book_class import Book
 
 def main():
     # Create a Book instance
-    my_book = Book("1984", "George Orwell", 1949)
+    my_book = Book("1984", "George Orwell", 1949. )
 
     # Display string representation (__str__)
     print("String Representation:")
