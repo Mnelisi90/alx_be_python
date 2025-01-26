@@ -9,7 +9,7 @@ class Book:
 # Derived class for EBooks
 class EBook(Book):
     def _init_(self, title, author, file_size):
-        super().__init__(title, author)
+        super().__init__(title, author)  # Properly call the base class constructor
         self.file_size = file_size
 
     def __str__(self):
