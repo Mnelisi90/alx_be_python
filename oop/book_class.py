@@ -11,7 +11,7 @@ class Book:
 
     def __str__(self):
         """String representation for end-user readability."""
-        return f"'{self.title}' by {self.author}, published in {self.year}"
+        return f"{self.title} by {self.author}, published in {self.year}"
 
     def __repr__(self):
         """Official representation suitable for debugging or recreating the object."""
